@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <div class="navigation-section">
+        <!--UPPER WHITE NAV-->
+        <div class="uppernav">
+            <div class="logo">
+                <h1>Vic<span>microfinance</span></h1> 
+            </div>
+            <div class="links">
+                <ul> 
+                    <li><a href="about.html">About &#9660;</a></li> 
+                    <li><a href="#">Upcoming events</a></li> 
+                    <li><a href="#">Achievements</a></li> 
+                    <li><a href="faqs.html">FAQs</a></li> 
+                </ul> 
+            </div> 
+            <div class="buttons">
+                <a href="register.html"><button class="join">Join us</button></a>
+                <a href="apply.html"><button class="getloan">Get loan</button></a>
+            </div>
+        </div>
+
+        <!--THE BLUE NAVIGATION BAR-->
+        <nav class="navbar"> 
+            <a href="#" class="logo"></a> 
+                <ul> 
+                    <li><a href="home.html">Home</a></li> 
+                    <li><a href="services.html">Services &#9660;</a></li> 
+                    <li><a href="loans.html">Loans</a></li> 
+                    <li><a href="#">Contact</a></li> 
+                </ul> 
+        </nav>
+    </div>
+    <div class="barner">
+        <div class="text">
+            <h1>Our services built specifically for your needs</h1>
+            <a href="about.html"><button class="servicesbutton">Explore now</button></a>
+            <a href="loans.html"><button class="getstarted">Get started</button></a>
+        </div>
+        <div class="picture">
+            <img src="images/barnerwoman.png" alt="">
+        </div>
+    </div>
+    <section class="digital-services">
+    
+        <h2>Newly added Digital Services</h2>
+    
+        <div class="services-container">
+    
+            <div class="service" data-service="web">Loan Calculator</div>
+    
+            <div class="service" data-service="mobile">Balance check</div>
+    
+            <div class="service" data-service="uiux">Ways to back</div>
+    
+        </div>
+    
+    
+    
+        <div class="service-details">
+    
+            <div id="web" class="details">
+                <div id="loan-calculator" class="digital-service">
+                    <h3>Loan Calculator</h3>
+                    <label>Loan Amount:</label><br><br>
+                    <input type="number" id="loanAmount" placeholder="Enter amount" required><br><br>
+                    <label>Interest Rate (%):</label><br><br>
+        
+                    <input type="number" id="interestRate" placeholder="Enter interest rate" required><br><br>
+                    <label>Loan Term (Months):</label><br><br>
+                    <input type="number" id="loanTerm" placeholder="Enter term in months" required><br><br>
+                    <button onclick="calculateLoan()" >Calculate</button>
+        
+                    <p id="loanResult">Results will show here</p>
+        
+                </div>
+            </div>
+    
+            <div id="mobile" class="details">
+                <div id="balance-check" class="digital-service">
+
+                    <h3>Balance Check</h3>
+        
+                    <p>Quickly check your account balance online.</p>
+        
+                    <label>Enter Account Number:</label><br><br>
+        
+                    <input type="text" id="accountNumber" placeholder="Enter account number">
+        
+                    <button onclick="checkBalance()">Check Balance</button>
+        
+                    <p id="balanceResult">Results will show here</p>
+        
+                </div>        
+            </div>
+    
+            <div id="uiux" class="details">
+                <div id="ways-to-bank" class="digital-service">
+
+                    <h3>Ways to Bank</h3>
+        
+                    <p>Explore different ways to access our banking services:</p>
+        
+                    <ul>
+        
+                        <li>Online Banking</li>
+        
+                        <li>Mobile App</li>
+        
+                        <li>ATM Services</li>
+        
+                        <li>Agent Banking</li>
+        
+                        <li>USSD Banking</li>
+        
+                    </ul>
+        
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="offers">
+
+
+
+        <div class="offer">
+
+            <h3>Loan Services</h3>
+
+            <p>Flexible and fast financing solutions for your needs.</p>
+
+            <ul>
+
+                <li>Personal Loans</li>
+                <li>Business Loans</li>
+                <li>Emergency Loans</li>
+                <li>Education Loans</li>
+                <li>Agricultural Loans</li>
+            </ul>
+
+            <a href="apply.html" class="btn">Apply Now</a>
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h3>Savings & Investment</h3>
+
+            <p>Secure and high-yield savings plans.</p>
+
+            <ul>
+
+                <li>Savings Accounts</li>
+
+                <li>Fixed Deposits</li>
+
+                <li>Group Savings (SACCOs)</li>
+
+            </ul>
+
+            <a href="#" class="btn">Start Saving</a>
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h3>Financial Advisory & Training</h3>
+
+            <p>Expert guidance for financial success.</p>
+
+            <ul>
+
+                <li>Business Advisory</li>
+
+                <li>Loan Management Training</li>
+
+                <li>Savings & Investment Workshops</li>
+
+            </ul>
+
+            <a href="#" class="btn">Join a Training</a>
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h3>Digital Banking Services</h3>
+
+            <p>Convenient & secure banking at your fingertips.</p>
+
+            <ul>
+
+                <li>Online Account Management</li>
+
+                <li>Mobile Banking</li>
+
+                <li>Automated Loan Applications</li>
+
+            </ul>
+
+            <a href="register.html" class="btn">Get Started Online</a>
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h3>Special Offers & Promotions</h3>
+
+            <p>Exclusive deals to help you save more.</p>
+
+            <ul>
+
+                <li>Seasonal Loan Discounts</li>
+
+                <li>Referral Bonuses</li>
+
+                <li>Financial Literacy Seminars</li>
+
+            </ul>
+
+            <a href="home.html" class="btn">See Offers</a>
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h3>Customer Support & Assistance</h3>
+
+            <p>We're always here to help.</p>
+
+            <ul>
+
+                <li>24/7 Customer Service</li>
+
+                <li>Live Chat Assistance</li>
+
+            </ul>
+
+            <a href="#" class="btn">Contact Support</a>
+
+        </div>
+    </section>
+    <footer>Soon</footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

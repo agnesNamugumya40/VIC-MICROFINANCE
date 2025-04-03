@@ -1,0 +1,290 @@
+/*GENERAL STYLING*/
+* { margin: 0; padding: 0; box-sizing: border-box; 
+} 
+a{
+    text-decoration: none;color: white;
+}
+body{
+ height: 100%; font-family: Arial, sans-serif; 
+}
+.navigation-section{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+   
+}
+/*WHITE NAVIGATION BAR STYLING  */
+.uppernav{
+    background-color: rgb(12, 0, 66,0.4);padding: 20px; display: flex;width: 100%;
+   
+}
+.uppernav a:hover,.navbar a:hover{
+    color: #ffc107;
+    text-decoration: overline;
+}
+
+.logo h1{
+    font-weight: bold;color: #030e74; font-size: 30px; 
+}
+.logo h1 span{
+    color: rgb(255, 255, 255);font-size: 8px;
+}
+.uppernav ul {
+    list-style: none; display: flex; 
+  
+   } 
+.uppernav ul li { 
+   margin-left: 50px; 
+}
+.uppernav ul li a { 
+   color: white; font-size: 18px; 
+}
+.buttons{
+    margin-left: 320px;
+}
+.buttons button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    margin-left: 0px;
+    border: none;
+}
+.getloan{
+    background-color: rgb(12, 0, 68); 
+    color: white;
+}
+
+/*SECOND BLUE NAVIGATION BAR*/
+.navbar {
+    display: flex;   background-color: rgba(3, 0, 177, 0.9);width: 100%;
+     justify-content: space-between; align-items: center; padding: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     backdrop-filter: blur(7px);
+
+   
+}
+.navbar ul {
+    list-style: none; display: flex; margin: 0; padding: 0; 
+} 
+.navbar ul li { 
+   margin-left: 20px; 
+}
+.navbar ul li a { 
+   color: #fff; text-decoration: none; font-size: 18px; 
+}
+
+nav a {  
+margin: 0 15px; font-weight: bold; 
+} 
+.about{
+   padding: 200px;
+    background-color: rgb(2, 2, 59);
+    text-align: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+     font-size: 40px;
+     color: rgb(255, 255, 255);
+     width: 100%;
+     box-shadow: 2px 2px 15px rgb(0, 0, 73);
+}
+.services{
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.servicesleft,.servicesright{
+    width: 49%;
+    height: 60vh;
+}
+.servicesleft{
+    display: flex;
+    justify-content: space-between;
+}
+.LEFTleftdiv{
+    width: 55%;
+}
+.LEFTrightdiv{
+    width: 44%;
+}
+.upper{
+    height: 70%;
+}
+.lower{
+    color: white;
+    background-color:rgb(0, 0, 29);
+    margin-top: 10px;
+    text-align: center;
+    height: 27.5%;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.lower h1{
+    color: rgb(255, 187, 0);
+}
+.servicesleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.servicesright{
+    background-color: rgb(242, 242, 247);
+    padding:25px;
+    border-radius: 10px;
+}
+.servicesright h3{
+    margin-bottom: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.servicesright h1{
+    font-weight: lighter;
+}
+.servicesright p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lists{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.services button{
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 30px;
+   border-radius: 20px;
+   background-color:rgb(0, 0, 29);
+}
+.lists ul li{
+    list-style-type:square ;
+    line-height: 2;
+    font-style: italic;
+}
+.main{
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    justify-content: space-between;
+}
+.mainleft,.mainright{
+    width: 49%;
+}
+.mission,.vision,.values{
+    margin-bottom: 15px;
+   padding: 10px 18px;
+    background-color: rgb(242, 242, 247);
+    border-radius: 10px;
+}
+.mainleft h3{
+    width: 35%;
+    background-color: rgb(210, 206, 247);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px;
+}
+.mainleft p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.mainright {
+    backdrop-filter: blur(10px);
+    background-image: url("images/conference.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-right: 4px;
+    color: rgb(255, 255, 255);
+}
+.mainright p{
+    font-size: 12px;
+}
+.mainright button{
+   margin-top: 350px;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color:rgb(0, 0, 29); 
+}
+.mid{
+    width: 100%;
+    padding: 50px;
+    background-color:rgb(0, 0, 29); 
+}
+.goals{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.goalspicture img,.goalstext{
+    border-radius: 10px;  
+    margin-top: 150px;  
+}
+.goalspicture {
+    width: 60px;
+}
+.goalstext{
+    padding: 20px;
+    width: 39%;
+    background-color: rgb(230, 229, 243);
+    border-radius:10px;
+}
+.goalstext button{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 196, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin-top: 150px;
+    box-shadow: 2px 2px 2px;
+}
+.achievedgoals{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.goal{
+    margin-top: 20px;
+    width: 30%;
+    padding: 40px 20px;
+    background-color: rgb(232, 233, 247);
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px;
+    color: rgb(0, 0, 0);
+}
+.goal img{
+    width: 30px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.satisfactions{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.satisfaction{
+width: 20%;
+}
+.satisfaction h1{
+    font-size: 50px;
+    color: rgb(0, 0, 56);
+}

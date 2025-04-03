@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIC Microfinance Dashboard</title>
+
+    <link rel="stylesheet" href="user.css">
+
+    <script defer src="dashboard.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <h2>VIC Microfinance</h2>
+
+        <ul>
+
+            <li class="active">Dashboard</li>
+
+            <li>My Profile</li>
+
+            <li>Loans</li>
+
+            <li>Savings</li>
+
+            <li>Transactions</li>
+
+            <li>Settings</li>
+
+        </ul>
+
+    </div>
+
+
+
+    <div class="main-content">
+
+        <header>
+
+            <h1>Welcome, Jonathan Cook</h1>
+
+            <p>Account Summary — <span id="date"></span></p>
+
+        </header>
+
+
+
+        <section class="stats">
+
+            <div class="card">
+
+                <h3>Loan Requests</h3>
+
+                <p>12 Pending</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Savings Balance</h3>
+
+                <p>$4,300</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Monthly Expenses</h3>
+
+                <p>$3,400 <span class="increase">+5.78%</span></p>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="charts">
+
+            <canvas id="financialChart"></canvas>
+
+        </section>
+
+    </div>
+
+
+
+    <script>
+
+        document.getElementById("date").innerText = new Date().toDateString();
+
+    </script>
+
+</body>
+
+</html>
