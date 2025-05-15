@@ -1,0 +1,140 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background-color: #f4f4f4;
+
+}
+/*WHITE NAVIGATION BAR STYLING  *
+.uppernav{
+  background-color: rgb(12, 0, 66,0.4);padding: 20px; display: flex;width: 100%;
+ 
+}
+.uppernav a:hover,.navbar a:hover{
+  color: #ffc107;
+  text-decoration: overline;
+}
+
+.logo h1{
+  font-weight: bold;color: #030e74; font-size: 30px; 
+}
+.logo h1 span{
+  color: rgb(255, 255, 255);font-size: 8px;
+}
+.uppernav ul {
+  list-style: none; display: flex; 
+
+ } 
+.uppernav ul li { 
+ margin-left: 50px; 
+}
+.uppernav ul li a { 
+ color: white; font-size: 18px; text-decoration: none;
+}
+.buttons{
+  margin-left: 320px;
+}
+.buttons button{
+  padding: 15px 45px;
+  border-radius: 15px;
+  margin-left: 20px;
+  border: none;
+}
+.getloan{
+  background-color: rgb(12, 0, 68); 
+  color: white;
+}
+
+/*SECOND BLUE NAVIGATION BAR*/
+
+/*FAQS*/
+
+h2 {
+  text-align: left;
+  font-size: 40px;
+  padding-top: 90px;
+  background-image: url('images/faqs.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+  height: 80vh;
+  width: 100%;
+  padding-top: 150px;
+
+}
+
+
+
+/* FAQ Section */
+
+.faq {
+
+  background: white;
+
+  padding: 20px;
+
+  margin-top: 10px;
+
+}
+
+
+
+.faq-item {
+
+ width: 80%;
+ margin: auto;
+
+}
+
+
+
+.faq-question {
+
+  background-color: rgb(0, 6, 87);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border: none;
+
+  padding: 10px;
+
+  width: 100%;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+
+
+.faq-answer {
+  display: none;
+  background: #e9ecef;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  border-radius: 5px;
+
+}
+
+
+
+/* Footer */
+.other{
+  width: 30%;
+  margin: auto;
+ 
+
+}
+.other a{
+  color: blue;
+  text-decoration: none;
+}

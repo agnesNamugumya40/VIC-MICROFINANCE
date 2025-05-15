@@ -13,23 +13,29 @@ section{
     background-size: cover;
     background-position: center ;
     backdrop-filter: blur(10px);
+    padding-top: 150px;
 }
+.navigation-section{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+   
+}
+/*WHITE NAVIGATION BAR STYLING  
 .uppernav{
-    background-color: transparent;padding: 20px; display: flex;width: 80%;z-index: 4;position: relative;
+    background-color: rgb(12, 0, 66,0.4);padding: 20px; display: flex;width: 100%;
+   
 }
 .uppernav a:hover,.navbar a:hover{
     color: #ffc107;
     text-decoration: overline;
 }
 
-.logos {
-   text-decoration: none;
+.logo h1{
+    font-weight: bold;color: #030e74; font-size: 30px; 
 }
-.uppernav .logo {
-    font-weight: bold;color: #ffc404; font-size: 30px; 
-}
-.logo span{
-    color: rgb(18, 1, 94);font-size: 8px;
+.logo h1 span{
+    color: rgb(255, 255, 255);font-size: 8px;
 }
 .uppernav ul {
     list-style: none; display: flex; 
@@ -39,12 +45,29 @@ section{
    margin-left: 50px; 
 }
 .uppernav ul li a { 
-   color:black; font-size: 18px; 
+   color: white; font-size: 18px; text-decoration: none;
 }
-/*SECOND BLUE NAVIGATION BAR*/
+.buttons{
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    margin-left: 5px;
+    border: none;
+}
+
+SECOND BLUE NAVIGATION BAR*/
 .navbar {
-    display: flex; justify-content: space-between; align-items: center; padding: 20px; 
-    background-color: rgb(18, 1, 94); 
+    display: flex;   background-color: rgba(3, 0, 177, 0.9);width: 100%;
+     justify-content: space-between; align-items: center; padding: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     backdrop-filter: blur(7px);
+
+   
 }
 .navbar ul {
     list-style: none; display: flex; margin: 0; padding: 0; 
@@ -55,17 +78,16 @@ section{
 .navbar ul li a { 
    color: #fff; text-decoration: none; font-size: 18px; 
 }
-nav { 
-    margin-top: 10px; 
-} 
+
 nav a {  
 margin: 0 15px; font-weight: bold; 
 } 
 
+
 .loginbox{
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 75vh;
     border: 2px solid rgb(131, 128, 139);
     background: transparent;
     border-radius: 20px;
@@ -124,7 +146,7 @@ h2{
     margin-left: 40px;
     padding-left: 40px;
 }
-button{
+section button{
     margin-top: 20px;
     width: 100%;
     outline: none;
@@ -140,8 +162,8 @@ button{
 .signinlink p{
     color: white;
 }
-a{
-    color: rgb(226, 229, 252);
+section a{
+    color: rgb(0, 0, 73);
 }
 h1{
     text-align: center;
